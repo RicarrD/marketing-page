@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff2f;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #EFEFEF;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    margin-left: 2rem;
+}
+
+button {
+    border: none;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    padding: 25px;
+}
+
+.center {
+    max-width: 1100px;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.headerlogo {
+    height: 40px;
+    width: 170px;
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 190px 0px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.right {
+    display: flex;
+    height: 500px;
+    width: 500px;
+}
+
+.right img {
+    border-radius: 25px;
+}
+
+.left {
+    width: 400px;
+    margin-right: 15%;
+}
+
+.left button {
+    text-align: center;
+    width: 110px;
+    background-color: #00EE64;
+    border-radius: 8px;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.news {
+    text-align: center;
+    padding: 40px;
+    font-size: 36px;
+    background-color: #0F0F0F;
+    color: white;
+    margin: 0;
+}
+
+.informations {
+    display: flex;
+    justify-content: center;
+    background-color: #0F0F0F;
+    padding-bottom: 150px;
+}
+
+.informations img {
+    width: 250px;
+    align-items: center;
+    height: 200px;
+    border: 3px solid #00EE64;
+    border-radius: 15px;
+    margin: 20px;
+    margin-top: 40px;
+    background: linear-gradient(to top, transparent 25%, #000000 100%);
+}
+
+.informations p {
+    max-width: 250px;
+    margin: -75px 24px;
+    color: white;
+    font-size: 18px;
+}
+
+.sobre {
+    text-align: center;
+    font-family: 'Roboto', arial;
+    display: flex;
+    flex-direction: column;
+    background-color: #091836;
+    padding: 200px;
+}
+
+.sobre p {
+    text-align: left;
+    font-size: 36px;
+    color: #ffffff;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Roboto', arial;
+}
